@@ -1,9 +1,9 @@
 <template>
   <HeadlessButton
-    :htmlType="htmlType"
+    :html-type="htmlType"
     :disabled="disabled"
-    :clickIntervalMillisecond="clickIntervalMillisecond"
-    :classNames="classNames"
+    :click-interval-millisecond="clickIntervalMillisecond"
+    :class-names="classNames"
     @clicked="handleClicked"
   >
     <slot />

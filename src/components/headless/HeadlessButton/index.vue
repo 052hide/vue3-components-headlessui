@@ -31,6 +31,7 @@ export default defineComponent({
     classNames: {
       type: Object as PropType<Props['classNames']>,
       required: false,
+      default: undefined,
     },
   },
   emits: ['clicked'],

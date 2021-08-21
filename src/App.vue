@@ -1,6 +1,6 @@
 <template>
   <div>
-    <BaseButton theme="secondary" @clicked="handleClicked">Button</BaseButton>
+    <BaseButton theme="secondary" @clicked="handleClicked"> Button </BaseButton>
   </div>
 </template>
 
