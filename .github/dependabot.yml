@@ -4,9 +4,9 @@ updates:
   - package-ecosystem: npm
     directory: '/'
     schedule:
-      interval: daily
+      interval: monthly
       time: '00:00'
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 10
     reviewers:
       - 052hide
     assignees:
@@ -19,9 +19,9 @@ updates:
   - package-ecosystem: github-actions
     directory: '/'
     schedule:
-      interval: daily
+      interval: monthly
       time: '00:00'
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 10
     reviewers:
       - 052hide
     assignees:
